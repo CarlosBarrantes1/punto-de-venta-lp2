@@ -1,0 +1,79 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>InicioServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.InicioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InicioServlet</servlet-name>
+    <url-pattern>/inicio</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.UsuarioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <url-pattern>/usuario</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RolServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.RolServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RolServlet</servlet-name>
+    <url-pattern>/rol</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProductoServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.ProductoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductoServlet</servlet-name>
+    <url-pattern>/producto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CategoriaServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.CategoriaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CategoriaServlet</servlet-name>
+    <url-pattern>/categoria</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LocalServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.LocalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LocalServlet</servlet-name>
+    <url-pattern>/local</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MedioPagoServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.MedioPagoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MedioPagoServlet</servlet-name>
+    <url-pattern>/medioPago</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProveedorServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.ProveedorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProveedorServlet</servlet-name>
+    <url-pattern>/proveedor</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ClienteServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.ClienteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClienteServlet</servlet-name>
+    <url-pattern>/cliente</url-pattern>
+  </servlet-mapping>
+</web-app>
