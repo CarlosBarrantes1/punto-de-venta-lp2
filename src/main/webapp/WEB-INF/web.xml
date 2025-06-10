@@ -76,4 +76,12 @@
     <servlet-name>ClienteServlet</servlet-name>
     <url-pattern>/cliente</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>CajaServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.CajaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CajaServlet</servlet-name>
+    <url-pattern>/caja</url-pattern>
+  </servlet-mapping>
 </web-app>
