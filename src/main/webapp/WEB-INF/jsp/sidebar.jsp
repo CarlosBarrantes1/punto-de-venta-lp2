@@ -22,6 +22,7 @@
                     <a class="list-group-item list-group-item-action ps-4" href="<%= request.getContextPath() %>/medioPago">Medios de Pago</a>
                     <a class="list-group-item list-group-item-action ps-4" href="<%= request.getContextPath() %>/proveedor">Proveedores</a>
                     <a class="list-group-item list-group-item-action ps-4" href="<%= request.getContextPath() %>/cliente">Clientes</a>
+                    <a class="list-group-item list-group-item-action ps-4" href="<%= request.getContextPath() %>/caja">Caja</a>
                 </div>
             </div>
         </div>

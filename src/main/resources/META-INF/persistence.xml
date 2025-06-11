@@ -17,6 +17,7 @@
         <class>com.cibertec.model.MedioPago</class>
         <class>com.cibertec.model.Proveedor</class>
         <class>com.cibertec.model.Cliente</class>
+       <class>com.cibertec.model.Caja</class> 
         
         <properties>
             <!-- Database connection properties -->
