@@ -17,9 +17,10 @@
         <class>com.cibertec.model.MedioPago</class>
         <class>com.cibertec.model.Proveedor</class>
         <class>com.cibertec.model.Cliente</class>
-       <class>com.cibertec.model.Caja</class> 
+        <class>com.cibertec.model.Caja</class>
+        <class>com.cibertec.model.CajaSesion</class>
         
-        <properties>
+                    <properties>
             <!-- Database connection properties -->
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://aws-0-us-east-2.pooler.supabase.com:6543/postgres"/>
@@ -50,3 +51,4 @@
         </properties>
     </persistence-unit>
 </persistence>
+
