@@ -84,4 +84,12 @@
     <servlet-name>CajaServlet</servlet-name>
     <url-pattern>/caja</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>CajaSesionServlet</servlet-name>
+    <servlet-class>com.cibertec.servlet.CajaSesionServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CajaSesionServlet</servlet-name>
+    <url-pattern>/cajaSesion</url-pattern>
+</servlet-mapping>
 </web-app>
